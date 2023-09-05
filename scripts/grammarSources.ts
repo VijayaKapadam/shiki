@@ -78,6 +78,10 @@ export const githubGrammarSources: [string, string][] = [
     'actionscript-3',
     'https://github.com/BowlerHatLLC/vscode-as3mxml/blob/master/distribution/src/assembly/syntaxes/AS3.tmLanguage'
   ],
+  [
+    'ampscript',
+    'https://github.com/wvpv/ampscript-syntax-highlighter/blob/master/AMPscript%20Syntax%20Highlighter%20(HTML).JSON-tmLanguage'
+  ],
   ['ara', 'https://github.com/ara-lang/highlighting/blob/main/syntaxes/ara.json'],
   [
     'asm',
@@ -355,6 +359,7 @@ export const githubGrammarSources: [string, string][] = [
  * markdown content
  */
 export const languageAliases = {
+  ampscript: ['amp','ampscript'],
   bat: ['batch'],
   berry: ['be'],
   cadence: ['cdc'],
